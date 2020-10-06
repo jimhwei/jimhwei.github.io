@@ -1,3 +1,2 @@
-# fleming
-Fleming College
+# Fleming College
 Jim Honglin Wei
