@@ -1,1 +1,0 @@
-Copyright to Wix.com
