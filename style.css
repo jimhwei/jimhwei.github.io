@@ -1,5 +1,25 @@
-<style>
+/* Main Style stylesheet*/
+
+/* color scheme referenced from: https://colourco.de/
+https://colourco.de/monochrome/9/bf5534*/
+
+/* Table properties Adapated from https://www.w3schools.com/css/css_table.asp */
+
 table, th, td {
-  border: 1px solid black;
+  border-collapse: collapse;
+  width: auto;
 }
-</style>
+
+th, td {
+  padding: 10px;
+  text-align:left;
+  border-bottom: 1px solid #ddd;
+}
+
+th{
+  background-color: #9D472C;
+  color: white;
+}
+
+tr:hover {background-color: #F4D8D5;}
+tr:nth-child(even){background-color: #F4D8D5}
