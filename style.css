@@ -7,10 +7,10 @@ body {
   background-color: #FFFAFA;
 }
 
-h1, h2, h3 {
+/* Font Family adapted from https://www.w3schools.com/css/css_font.asp*/
+h1, h2, h3, p {
   font-family: Tahoma, Geneva, sans-serif;
 }
-
 
 /* fonts*/
 .sanserif {
