@@ -17,6 +17,11 @@ h1, h2, h3, p {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
+/* https://www.w3schools.com/css/css3_images.asp*/
+img {
+  display: block;
+}
+
 /* Nav Bar Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
 ul {
   list-style-type: none;
