@@ -12,7 +12,7 @@ h1, h2, h3, p {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-/* https://www.w3schools.com/css/css3_images.asp*/
+/* 2. https://www.w3schools.com/css/css3_images.asp*/
 img {
   display: inline-block;
   border-radius: 5px;
@@ -21,7 +21,7 @@ img {
   margin-right: auto;
 }
 
-/* Nav Bar Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* 3. Nav Bar Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
 ul {
   list-style-type: none;
   margin: 0;
@@ -33,7 +33,6 @@ ul {
 li {
   float: left;
   border-right: 1px solid #BBB;
-  border
 }
 
 li a {
@@ -52,8 +51,7 @@ li a:hover:not(.active) {
   background-color: #59291A;
 }
 
-/* Table properties Adapated from https://www.w3schools.com/css/css_table.asp */
-
+/* 1. Table properties Adapated from https://www.w3schools.com/css/css_table.asp */
 table, th, td {
   border-collapse: collapse;
   width: auto;
