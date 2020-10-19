@@ -12,14 +12,13 @@ h1, h2, h3, p {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-/* fonts*/
-.sanserif {
-  font-family: Tahoma, Geneva, sans-serif;
-}
-
 /* https://www.w3schools.com/css/css3_images.asp*/
 img {
-  display: block;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Nav Bar Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
