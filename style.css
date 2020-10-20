@@ -12,6 +12,11 @@ h1, h2, p {
   font-family: "Gill Sans", Geneva, sans-serif;
 }
 
+/* styling the texts*/
+.italics{
+  font-style: italic;
+}
+
 p{
   margin-left: 5px;
 }
