@@ -7,7 +7,7 @@
 <body>
 
 <!-- List/Nav Bar adpated from https://www.w3schools.com/html/html_lists.asp -->
-<ul>
+<ul class="center">
   <li><a class="active" href="index.html">Home</a></li>
   <li><a href="about.html">About Me</a></li>
   <li><a href="https://flemingcollege.ca/programs/geographic-information-systems-applications-specialist">Fleming GIS</a></li>
@@ -15,21 +15,49 @@
   <li><a href="secondpg.html">Sample Work</a></li>
 </ul>
 
-<h1 style="color:black;">About Me</h1>
+<h1 class="center">About Me</h1>
 
-<p>When I am not busy, I like to make food, lift weights and explore new places.
-  I also like animals and playing video games.</p>
+<p class="center">When I am not busy, I like to make food, lift weights and explore new places.</p>
+<p class="center"> I also like dogs and playing video games.<p>
 
 <!-- 2. Images by me, relative link adpated from https://www.w3schools.com/html/html_images.asp -->
+<h2 class="underline">Donuts & BBQ</h2>
 
-<h3>Donuts & BBQ</h3>
-<img src="imgs/steak.jpg" alt="Jim with steak" width="600" height="800">
-<img src="imgs/donuts.jpg" alt="donuts" width="800" height="600">
+<div class="center">
+  <img src="imgs/steak.jpg" alt="Jim with steak" width="600" height="800">
+</div>
+<div class="caption">Juicy Steak Cooked Medium Rare</div>
 
-<h3>Dogs</h3>
-<img src="imgs/justin1.jpg" alt="Justin Licking Jim 1" width="448" height="550">
-<img src="imgs/sandy.jpg" alt="Golden Retriever Sandy" width="500" height="667">
-<img src="imgs/justin2.jpg" alt="Justin Licking Jim 2" width="493" height="540">
+<div class="center">
+  <img src="imgs/donuts.jpg" alt="donuts" width="800" height="600"></div>
+</div>
+<div class="caption">Mmh... Donuts</div>
+
+
+<h2 class="underline">Dogs</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="imgs/justin1.jpg" alt="Justin Licking Jim 1" width="448" height="550">
+  </div>
+  <div class="caption">
+    Justin Getting Ready
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="imgs/sandy.jpg" alt="Golden Retriever Sandy" width="412" height="550">
+  </div>
+  <div class="caption">Sandy The Golden Retriver</div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <img src="imgs/justin2.jpg" alt="Justin Licking Jim 2" width="502" height="550">
+  </div>
+    <div class="caption">Justin Strikes!</div>
+</div>
 
 </body>
 </html>

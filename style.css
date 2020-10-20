@@ -8,8 +8,23 @@ body {
 }
 
 /* Font Family adapted from https://www.w3schools.com/css/css_font.asp*/
-h1, h2, h3, p {
-  font-family: Tahoma, Geneva, sans-serif;
+h1, h2, p {
+  font-family: "Gill Sans", Geneva, sans-serif;
+}
+
+p{
+  margin-left: 5px;
+}
+
+.wrap{
+  text-align: left;
+  width: 625px;
+}
+
+.underline {
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
 }
 
 /* 2. https://www.w3schools.com/css/css3_images.asp*/
@@ -17,8 +32,41 @@ img {
   display: inline-block;
   border-radius: 5px;
   margin: 5px;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.indent{
+  margin-left: 90px;
+}
+
+/* responsive designs and caption for photo gallery in about page */
+.gallery {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  font-family: "Gill Sans", Geneva, sans-serif;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.responsive {
+  margin-left: 6px;
+  float: left;
+  width: 30%
+}
+
+.center{
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* 3. Nav Bar Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
@@ -27,7 +75,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: "Gill Sans", Geneva, sans-serif;
 }
 
 li {
@@ -55,7 +103,8 @@ li a:hover:not(.active) {
 table, th, td {
   border-collapse: collapse;
   width: auto;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: "Gill Sans", Geneva, sans-serif;
+  margin-bottom: 30px;
 }
 
 th, td {
