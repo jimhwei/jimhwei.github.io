@@ -1,36 +1,57 @@
 /* Text */
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p,a,footer{
   font-family: 'Roboto', sans-serif;
 }
 
-/* 3. Nav Bar Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* Nav Bar*/
+/* Adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #333;
 }
 
 li {
   float: left;
-  border-right: 1px solid #BBB;
 }
 
 li a {
   display: block;
-  padding: 10px;
-  background-color: #B45031;
-  text-decoration: none;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #9D472C;
+  background-color: #314C9b;
 }
 
 .active {
-  background-color: #59291A;
+  background-color: #263973;
   text-transform: uppercase;
 }
 
-/* color Scheme referenced from: https://colourco.de/*/
+/* Footer */
+.footer {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight:bold;
+}
+
+/* Color Scheme
+referenced from https://colourco.de/monochrome/5/020306 */
