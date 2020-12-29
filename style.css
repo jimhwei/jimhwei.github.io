@@ -1,5 +1,5 @@
 /* Text */
-h1,h2,h3,h4,h5,h6,p,a,footer{
+body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -12,6 +12,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: -webkit-sticky; /* Safari, needed for firefox */
+  position: sticky;
+  top: 0;
 }
 
 li {
@@ -51,6 +54,11 @@ a {
 
 a:hover {
   font-weight:bold;
+}
+
+/* Icons */
+.fab:hover {
+    opacity: 0.7;
 }
 
 /* Color Scheme
