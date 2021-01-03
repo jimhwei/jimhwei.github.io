@@ -11,8 +11,9 @@ body {
   margin-right: 18px;
 }
 
-.header-color {
+.header {
   background-color: #333;
+  border-radius: 3px;
 }
 
 /* Nav Bar*/
@@ -76,6 +77,10 @@ section {
 figcaption {
   font-size: 14px;
   /* font-weight: bold; */
+}
+
+iframe {
+  width: 100%;
 }
 
 /* About page images */
