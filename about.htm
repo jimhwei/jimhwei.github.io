@@ -2,37 +2,59 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <script type="text/javascript"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
-<body>
+  <body>
+    <a name="top"></a>
+    <!-- Logos -->
+    <section class="header-color">
+      <img class="logo"src="imgs/SENRS_logo_white_text.svg" alt="Fleming Logo" width="30%">
+      <img class="logo"src="imgs/U-of-T-logo.svg" alt="UofT Logo" width="20.25%">
+    </section>
 
-<img src="imgs/fleminglogo.png" alt="Fleming Logo" width="450" height="112">
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="pastwork.htm">Past Work</a></li>
+        <li><a class="active" href="about.htm">About Me</a></li>
+      </ul>
+    </nav>
 
-<ul class="center">
-  <li><a href="index.htm">Home</a></li>
-  <li><a class="active" href="about.htm">About Me</a></li>
-</ul>
+    <div class="inner-container">
 
-<h1>About Me</h1>
-<p>I am a Junior Environmental Geoscientist (GIT) with 3 year of experience in
-  field work, GPS surveying, GIS mapping and environmental reporting.
-  My experience includes working with GIS, Python, SQL, and AutoCAD in a
-  project-oriented setting. Graduate from University of Toronto Environmental
-  Geoscience Specialist program with a focus on Geology and GIS. </p>
+      <h1 class="title-text">About Me</h1>
 
-<p>When I am not busy, I like to make food, learn new languages, lift weights
-  and explore new places. I also like dogs and playing video games.</p>
+      <section>
+        <p>I am a Junior Environmental Geoscientist (GIT) with 3 year of experience in field work, GPS surveying, GIS mapping and environmental reporting. My experience includes working with GIS, Python, SQL, and AutoCAD in a project-oriented setting. Graduate from University of Toronto Environmental Geoscience Specialist program with a focus on Geology and GIS.</p>
 
-<img src="imgs/steak.jpg" alt="Jim with steak" width="600" height="800">
-<p>Juicy Medium Rare Steak</p>
+        <p>When I am not busy, I like to make food, learn new languages, lift weights and explore new places.</p>
 
-<img src="imgs/justin1.jpg" alt="Justin The Beagle and Jim" width="448" height="550">
-<p>Justin Getting Ready to Lick My Face</p>
+        <div class="row">
+          <figure class="img-center">
+            <img class=" border" src="imgs/steak.jpg" alt="Jim with steak" width="413" height="550">
+            <figcaption>Juicy Medium Rare Steak</figcaption>
+          </figure>
 
+          <figure class="img-center">
+            <img class="border" src="imgs/justin1.jpg" alt="Justin The Beagle and Jim" width="448" height="550">
+            <figcaption>Justin Getting Ready to Lick My Face</figcaption>
+          </figure>
+        </div>
+      </section>
+
+    <footer>
+      <div class="footer">
+        <a href= "https://github.com/jimhwei"><i style='font-size:24px' class='fab'>&#xf09b;</i></a>
+        <a href= "https://www.linkedin.com/in/jimwei/"><i style='font-size:24px' class='fab'>&#xf08c;</i></a>
+        <p id="copyright">Copyright @Jim HL Wei 2020</p>
+        <a href="#top">Back to top of page</a>
+      </div>
+    </footer>
 
 </body>
 </html>
