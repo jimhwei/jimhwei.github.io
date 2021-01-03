@@ -93,6 +93,7 @@ figcaption {
 
 .border{
   border: 1px solid gray;
+  width: 100%;
 }
 
 /* Slideshow Gallery */
