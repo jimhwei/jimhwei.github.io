@@ -1,4 +1,4 @@
 # Jim Honglin Wei Website
-Link: https://jimhwei.github.io/
+Link: https://jimwei.github.io/
 
 V2: 2021-01-04
