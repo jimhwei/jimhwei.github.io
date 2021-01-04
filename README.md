@@ -1,5 +1,4 @@
-# Fleming College
-Jim Honglin Wei
-https://jimhwei.github.io/
+# Jim Honglin Wei Website
+Link: https://jimhwei.github.io/
 
-V2: 2020-12
+V2: 2021-01-04
