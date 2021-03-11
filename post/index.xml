@@ -5,12 +5,191 @@
     <link>https://jimhwei.github.io/post/</link>
       <atom:link href="https://jimhwei.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2021 Jim HL Wei</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2021 Jim HL Wei</copyright><lastBuildDate>Sat, 02 Jan 2021 21:09:42 -0500</lastBuildDate>
     <image>
       <url>https://jimhwei.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://jimhwei.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Fleming GIS Work</title>
+      <link>https://jimhwei.github.io/post/fleming/</link>
+      <pubDate>Sat, 02 Jan 2021 21:09:42 -0500</pubDate>
+      <guid>https://jimhwei.github.io/post/fleming/</guid>
+      <description>&lt;p&gt;The past couple of months I have been working with multiple softwares and completing projects in Geovisualization, Database Design, Spatial Analysis and Python programming. Below are some of my sample work that I have created using ArcGIS Pro, Adobe Illustrator, ArcMap, Survey 123, ArcPy and Visual Studio.&lt;/p&gt;
+&lt;h3 id=&#34;geovisualization-capstone&#34;&gt;&lt;strong&gt;Geovisualization Capstone&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;As Jim Bergeson said, “Data will talk to you if you’re willing to listen to it.” My map takes an analytical approach into looking at oil sands and coal mines, the top two resources extracted in Alberta. Resource exploration is an essential part of maintaining our high standard of living in Canada. Whether it is driving our cars, heating our homes, or powering our offices, coal and petroleum products both play significant roles. The debate between traditional and alternative energy sources is becoming more heated as our climate changes. But before we make up our minds about which side to take, we must first look at the data.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-alberta-black-gold-2020-a-map-of-albertan-oil-sands-and-coal-areas-mixed-media-arcgis-pro-25-avenza-mapublisher-106-adobe-illustrator-2020&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./HWei_GV1_AlbertaBlackGold.jpg&#34; alt=&#34;Alberta Black Gold, 2020: A map of Albertan Oil Sands and Coal Areas. Mixed Media: ArcGIS Pro 2.5, Avenza MAPublisher 10.6, Adobe Illustrator 2020.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Alberta Black Gold, 2020: A map of Albertan Oil Sands and Coal Areas. Mixed Media: ArcGIS Pro 2.5, Avenza MAPublisher 10.6, Adobe Illustrator 2020.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;naperville-water-main-risk-analysis&#34;&gt;&lt;strong&gt;Naperville Water Main Risk Analysis&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The water distribution network is very crucial in maintaining a standard of living in day to day life within a municipality. What happens when our water mains burst and they stop coming to our homes?&lt;/p&gt;
+&lt;p&gt;In this spatial analysis project, I used infrastructure data within Naperville to assess hydraulically critical pipe locations and their spatial relationships to high impact locations using a pre-existing framework from GHD consulting by Marikka Williams. A geoprocessing model was created to calculate risk and facilitate future distribution water pipe assessments. The work done here will to allow prioritizing maintenance to reduce the likelihood of a water pipeline catastrophe.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-naperville-watermain-assessment-poster&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./watermainposter.JPG&#34; alt=&#34;Naperville Watermain Assessment Poster&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Naperville Watermain Assessment Poster
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-preliminary-data-processing-using-model-builder--sql-in-this-water-main-assessment-modelbuilder-is-an-indispensable-part-of-this-project-as-it-allows-for-process-automation-reuse-and-sharing-among-the-gis-community&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./WaterMainModel.jpg&#34; alt=&#34;Preliminary Data Processing Using Model Builder &amp;amp; SQL in this water main assessment. Modelbuilder is an indispensable part of this project as it allows for process automation, reuse, and sharing among the GIS community.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Preliminary Data Processing Using Model Builder &amp;amp; SQL in this water main assessment. Modelbuilder is an indispensable part of this project as it allows for process automation, reuse, and sharing among the GIS community.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;ontario-tree-relational-database&#34;&gt;&lt;strong&gt;Ontario Tree Relational Database&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This project involved designing a data-collection database using Survey 123 and exporting to Access (Called an ETL, or Extract-Transform-Load process). The scope of this project involved tagging trees within Ontario and determining their species. One of the key challenges in this project was integrating multiple databases with different structures via migration. I worked with a small team to produce a database consisting of over 1300 unique entries and performed QA/QC to ensure database accuracy and efficiency.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-project-began-with-esris-survey123-form-design-for-tablet&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./survey123.jpg&#34; alt=&#34;The project began with ESRI&amp;#39;s Survey123 form design for tablet&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The project began with ESRI&amp;rsquo;s Survey123 form design for tablet
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-esris-survey123-xlsform-design-was-used-to-make-the-survey&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./xlsform.jpg&#34; alt=&#34;ESRI&amp;#39;s Survey123 XLSForm Design was used to make the survey&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      ESRI&amp;rsquo;s Survey123 XLSForm Design was used to make the survey
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-database-logical-model-relationship-with-ms-access&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./TreeRelationalDB.jpg&#34; alt=&#34;Database Logical Model Relationship with MS Access&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Database Logical Model Relationship with MS Access
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;problem-solving-with-python&#34;&gt;&lt;strong&gt;Problem Solving With Python&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;As of today, there are about 400 North Atlantic right whales left in the world. More than 20 whales have died in the Atlantic coast, likely due to human activities such as ship accidents and pollution. In this project, I produced an application using python 3.8 to conduct real time whale location. Using hydrophone distributed across the ocean, we were able development an algorithm based on salinity and ocean water assumptions to locate the direction of whales.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-calculating-then-angle-of-whale-location-using-csv-entries-and-python&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./WhalePSP.JPG&#34; alt=&#34;Calculating then angle of whale location using CSV entries and Python.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Calculating then angle of whale location using CSV entries and Python.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Unlike previous Fleming graduates, this year&amp;rsquo;s GIS Application Specialists began to compile ArcPy Automation Scripts in ArcGIS Pro using Python 3.x. There are endless possibilities and automation that can be replace pre-existing geoprocesses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-calculating-the-angle-of-whale-location-using-csv-entries-and-python&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div &gt;&lt;img src=&#34;./ArcGISProModel.png&#34; alt=&#34;Calculating the angle of whale location using CSV entries and Python.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Calculating the angle of whale location using CSV entries and Python.
+    &lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
