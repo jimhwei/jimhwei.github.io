@@ -1,0 +1,17 @@
+{
+  "key": "jimhwei",
+  "name": "jimhwei",
+  "source": {
+    "type": "folder",
+    "path": "C:\\Users\\jimwe\\github\\jimhwei.github.io"
+  },
+  "publish": [
+    {
+      "key": "default",
+      "config": {
+        "type": "folder",
+        "path": null
+      }
+    }
+  ]
+}
