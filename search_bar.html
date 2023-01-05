@@ -2,7 +2,9 @@
 <html lang='en' class=''>
   <head>
     <meta charset='UTF-8'>
-    <title>Search Bar Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://pagedart.com/blog/how-to-add-a-search-bar-in-html/ -->
+    <title>Multi Search Bars</title>
     <style>
         body {
         background-color: #3745c2;
@@ -48,6 +50,25 @@
         width: 44px;
         height: 44px;
       }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          margin-top: 30%;
+          margin-left: auto;
+          margin-right: auto;
+
+      }
+        form {
+        background-color: #4654e1;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        margin: 20px;
+      }
+}
     </style>
   </head>
   <body>
@@ -82,7 +103,6 @@
 
       function rsubmitted(event) {
         event.preventDefault();
-        // const url = google + '+' + q.value;
         const url = reddit + '+' + q2.value;
         const win = window.open(url, '_blank');
         win.focus();
