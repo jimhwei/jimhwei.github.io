@@ -96,14 +96,14 @@
 
       function ysubmitted(event) {
         event.preventDefault();
-        const url = youtube + '+' + q1.value;
+        const url = youtube + q1.value;
         const win = window.open(url, '_blank');
         win.focus();
       }
 
       function rsubmitted(event) {
         event.preventDefault();
-        const url = reddit + '+' + q2.value;
+        const url = reddit + q2.value;
         const win = window.open(url, '_blank');
         win.focus();
       }
